@@ -105,56 +105,10 @@ backgroundのrgbaで透過設定
 }
 
 /*-------------------------------------------
-News
+explanation
 -------------------------------------------*/
-/*
-「display: flex」で横並びに配置
-そのままではタイトルが左にくるため、「row-reverse」で順序を入れ替える。
-*/
-#news {
-  margin-bottom: 180px;
-  display: flex;
-  flex-direction: row-reverse;
-}
-#news .section-title {
-  font-weight: normal;
-  line-height: 1;
-  writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-  -moz-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-}
-#news .section-title .en {
-  display: block;
-  font-size: 0.875rem;
-  margin-left: 15px;
-}
-#news .section-title .ja {
-  display: block;
-  font-size: 2.25rem;
-  letter-spacing: 0.1em;
-}
-#news .list {
-  padding: 80px 100px 0 0;
-  writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-  -moz-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
-}
-#news .list dt {
-  border-right: solid 1px #000;
-  font-size: 0.75rem;
-  padding: 15px 30px 15px 5px;
-}
-#news .list dd {
-  padding: 15px 0 15px 30px;
-}
-/*
-最後だけ左側に罫線を引く
-*/
-
-/* explanation */
 #explanation {
+  margin: 50px 50px;
 }
 
 .explanation-wrapper {
@@ -162,7 +116,7 @@ News
   height: 100%;
   margin: 0 auto;
   border: #000 0.5px solid;
-  padding: 50px 50px;
+  padding: 100px 100px;
 }
 
 /*-------------------------------------------
